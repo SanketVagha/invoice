@@ -10,5 +10,6 @@ urlpatterns = [
     path('getinvoice', views.getinvoice, name= "getinvoice"),
     path('setinvoiceDetails', views.setinvoiceDetails, name= "setinvoiceDetails"),
     path('getinvoiceDetails', views.getinvoiceDetails, name= "getinvoiceDetails"),
-    path('getCustomerInvoiceDetails', views.getCustomerInvoiceDetails, name="getCustomerInvoiceDetails")
+    path('getCustomerInvoiceDetails', views.getCustomerInvoiceDetails, name="getCustomerInvoiceDetails"),
+    path('url/invoices', views.setInvoiceData, name="setInvoiceData")
 ]
